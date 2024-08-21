@@ -92,7 +92,7 @@ button{
 /* information section */
 .info-container{
     /* border: 2px solid gray; */
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,4 +137,35 @@ button{
     font-size: 18px;
     color: gray;
     text-align: center;
+}
+
+/* Quote Section */
+.quote-container{
+    /* border: 1px solid gray; */
+    background-color: #E5E7EB;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    /* border: 1px solid gray; */
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author{
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 800;
+    align-self: flex-end;
 }
