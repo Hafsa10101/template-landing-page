@@ -61,9 +61,12 @@ button{
     color: #F9FAF8;
     font-weight: 600;
     font-size: 16px;
-    border: none;
     padding: 8px 32px;
     border-radius: 8px;
+}
+
+.banner-btn{
+    border: none;
 }
 
 .img-holder{
@@ -143,7 +146,7 @@ button{
 .quote-container{
     /* border: 1px solid gray; */
     background-color: #E5E7EB;
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,4 +171,45 @@ button{
     font-size: 18px;
     font-weight: 800;
     align-self: flex-end;
+}
+
+/* Call to action section */
+.cta-container{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    /* border: 2px solid gray; */
+    background-color: #3882F6;
+    width: 70%;
+    padding: 50px 70px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.cta-heading{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.cta-subheading{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.left{
+    /* border: 1px solid #E5E7EB; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cta-btn{
+    border: 2px solid #F9FAF8;
+    align-self: center;
 }
